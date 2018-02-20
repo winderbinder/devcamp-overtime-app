@@ -14,8 +14,11 @@ describe 'navigate' do
   end
 
   describe 'creation' do
+    before do
+        visit new_post_path
+    end
+
     it 'has a form that can be reached' do
-      visit new_post_path
       expect(page.status_code).to eq(200)
     end
 
@@ -24,7 +27,6 @@ describe 'navigate' do
 
       fill_in 'post[date]', with: Date.today
       fill_in 'post[rationale]', with: "some rationale"
-
       click_on "save"
 
       expect(page).to have_content("some rationale")
