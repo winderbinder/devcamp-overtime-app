@@ -2,11 +2,11 @@ require 'rails_helper'
 
 RSpec.describe Post, type: :model do
   describe "Creation" do
-    before 'can be created' do
+    before do
       @post = Post.create(date: Date.today, rationale: "Anything")
     end
 
-    it 'can be created' do
+    it 'can be created' do  
       expect(@post).to be_valid
     end
 
