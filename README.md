@@ -22,4 +22,5 @@
 ## Refactor TODOS
 - Refactor user association integration test in post_spec
 - Refactor posts/form for admin user with status
-- fix post_spec.rb and refactor
+- fix post_spec.rb to use refactors
+
