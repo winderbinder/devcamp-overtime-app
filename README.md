@@ -19,8 +19,9 @@
 - icons from the font awesome
 - x update the styles for forms
 
-## Refactor TODOS
-- Refactor user association integration test in post_spec
-- Refactor posts/form for admin user with status
-- fix post_spec.rb to use refactors
+## TODOS:
+- Integrate validation for phone attr in User:
+  # No spaces or dashes
+  # all characters have to be a number
+  # exactly 10 characters
 

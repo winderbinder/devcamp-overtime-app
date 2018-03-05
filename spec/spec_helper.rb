@@ -9,7 +9,7 @@ RSpec.configure do |config|  config.expect_with :rspec do |expectations|
   end
 
   config.before(:each) do
-  stub_const("SmsTool", Fake_Sms)
+  stub_const("SmsTool", FakeSms)
   end
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
