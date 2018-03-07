@@ -23,7 +23,7 @@ puts "1 Admin User created"
                rationale: "#{post} rationale content",
                user_id: @user.id,
                overtime_request: 2.5)
-  
+
 end
 
 puts "100 user posts created"

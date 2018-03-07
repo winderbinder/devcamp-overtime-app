@@ -1,5 +1,5 @@
 class AuditLogPolicy < ApplicationPolicy
-  def update?
+  def index?
     return true if admin?
   end
 
