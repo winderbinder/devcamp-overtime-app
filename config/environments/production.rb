@@ -4,8 +4,6 @@ Rails.application.configure do
 
   config.serve_static_assets = true
 
-  config.digest.assets = true
-
   config.eager_load = true
 
   config.consider_all_requests_local       = false
