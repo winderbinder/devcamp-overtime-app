@@ -24,13 +24,13 @@ puts "1 Admin user created"
 
 puts "3 audit logs have been created"
 
-100.times do |post|
-  Post.create!(date: Date.today,
-               rationale: "#{post} rationale content",
-               user_id: @employee.id,
-               overtime_request: 2.5)
+# 100.times do |post|
+#   Post.create!(date: Date.today,
+#                rationale: "#{post} rationale content",
+#                user_id: @employee.id,
+#                overtime_request: 2.5)
 
-end
+# end
 
 
-puts "100 posts have been created"
+# puts "100 posts have been created"
